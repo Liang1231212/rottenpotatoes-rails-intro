@@ -4,10 +4,10 @@
 %table#movies
   %thead
     %tr
-      %th Movie Title
-      %th Rating
-      %th Release Date
-      %th More Info
+      %th <a href="https://shrouded-inlet-86214.herokuapp.com/sortByMovilesTitle">Movie Title</a>
+      %th <a href="https://shrouded-inlet-86214.herokuapp.com/sortByRating">Rating</a>
+      %th <a href="https://shrouded-inlet-86214.herokuapp.com/sortByReleaseDate">Release Date</a>
+      %th <a href="https://shrouded-inlet-86214.herokuapp.com/sortByMoreInfo">More Info</a>
   %tbody
     - @movies.each do |movie|
       %tr
